@@ -1,0 +1,13 @@
+# Ignore all terraform cache directories
+**/.terraform/
+**/.terraform/*
+
+# Ignore downloaded provider binaries & exe files
+*.exe
+**/windows_amd64/
+
+# Ignore state files and secrets
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
